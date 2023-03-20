@@ -1,0 +1,9 @@
+#css doubt
+
+different siziging tag
+font-weight
+position relative and absolute
+box-shadow
+animation: ease-in or ease-out
+translate
+text-align: justify;

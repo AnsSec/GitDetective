@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container{
+    box-sizing: border-box;
+    position: relative;
+    width: 1044px;
+    height: 1380px;
+    background: #E5E5FD;
+    border: 16px solid #1D1E4C;
+}
+
+.img-name{
+    display: flex;
+    gap: 62px;
+}
+
+.photo{
+    position: absolute;
+    width: 314px;
+    height: 392px;
+    left: 85px;
+    top: 100px;
+    border-radius: 170px;
+}
+
+.name{
+    position: absolute;
+    top: 359px;
+    left: 461px;
+    width: 453px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.year{
+    position: absolute;
+    width: 133px;
+    height: 47px;
+    left: 735px;
+    top: 412px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contantent{
+    position: relative;
+    top: 596px;
+    left: 79px;
+    width:750px;
+}
+
+.contantent-name{
+    width: 684px;
+    height: 62px;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 20px;
+}
+
+.contantent-info{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+}
+
+.biography{
+    width: 607px;
+    height: 218px;
+    margin-bottom: 127px;
+}
+
+.bio{
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.ul {
+    margin-left: 50px;
+  }
+.li {
+    margin-bottom: 15px;
+}
+
+footer{
+    position: absolute;
+    left: 624px;
+    bottom: 27px;
+    gap: 3px;
+}
+
+footer a{
+    text-decoration: none;
+}
